@@ -55,11 +55,9 @@ const Header = () => {
         )}
 
         <Link to="/" className="h-5 flex items-center">
-          <img
-            src={yLogo}
-            alt="youtube"
-            className="h-full hidden dark:md:block cursor-pointer"
-          />
+          <h4 className="h-full hidden dark:md:block cursor-pointer text-white font-semibold  text-xl ">
+            FlowTube
+          </h4>
           <img
             src={yLogoMobile}
             alt="youtube"
